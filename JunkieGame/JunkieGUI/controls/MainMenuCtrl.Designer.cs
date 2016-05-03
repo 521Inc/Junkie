@@ -44,6 +44,7 @@
             this.btnExit.TabIndex = 0;
             this.btnExit.Text = "Выход";
             this.btnExit.UseVisualStyleBackColor = false;
+            this.btnExit.Click += new System.EventHandler(this.onBtnExit);
             // 
             // btnPlay
             // 
@@ -62,6 +63,7 @@
             this.btnPlay.TabIndex = 1;
             this.btnPlay.Text = "Игра";
             this.btnPlay.UseVisualStyleBackColor = false;
+            this.btnPlay.Click += new System.EventHandler(this.onBtnPlay);
             // 
             // MainMenuCtrl
             // 

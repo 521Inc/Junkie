@@ -10,5 +10,14 @@ namespace JunkieGUI.interfaces {
     /// </summary>
     public interface IShellManager {
         
+        /// <summary>
+        /// Закрывает приложение
+        /// </summary>
+        void exit();
+        
+        /// <summary>
+        /// Начинает одиночную игру
+        /// </summary>
+        void beginSingleGame();
     }
 }

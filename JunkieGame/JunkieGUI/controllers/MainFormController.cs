@@ -8,7 +8,7 @@ using JunkieCore.models;
 using JunkieCore.utils;
 
 namespace JunkieGame.controllers {
-    public class Controller {
+    public class MainFormController {
 
         public event EventHandler GameFieldCreated;
 
@@ -16,7 +16,7 @@ namespace JunkieGame.controllers {
 
         public GameField GameField { get; set; }
 
-        public Controller(IPlayer player) {
+        public MainFormController(IPlayer player) {
             Self = player;
             player.setName("Олеша");
         }

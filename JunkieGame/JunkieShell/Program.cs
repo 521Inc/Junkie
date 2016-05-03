@@ -20,11 +20,12 @@ namespace JunkieShell {
         static void Main() {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            
-            var splashWnd = new Splash();
-            splashWnd.show(SPLASH_SLEEP);
-            
-            Application.Run(new MainForm());
+            new Splash().show(SPLASH_SLEEP);
+            var mainWnd = new MainForm();
+            var shellManager = new ShellManager();
+            shellManager.MainWndForm = mainWnd;
+            mainWnd.init(shellManager);
+            Application.Run(mainWnd);
         }
     }
 }

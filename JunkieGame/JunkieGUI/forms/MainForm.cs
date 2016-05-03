@@ -11,12 +11,25 @@ using System.Windows.Forms;
 
 namespace JunkieGUI.forms {
     public partial class MainForm : Form {
+
+        private IShellManager _shellManager;
+
         public MainForm() {
             InitializeComponent();
         }
 
         public void init(IShellManager shellManager) {
+            _shellManager = shellManager;
+            mainMenuCtrl.Play += onPlay;
+            mainMenuCtrl.Exit += onExit;
+        }
 
+        void onExit(object sender, EventArgs e) {
+            _shellManager.exit();
+        }
+
+        void onPlay(object sender, EventArgs e) {
+            _shellManager.beginSingleGame();
         }
     }
 }

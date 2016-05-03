@@ -21,7 +21,7 @@ namespace JunkieGame.controls {
 
         private GameField _gameField;
 
-        private Controller _controller;
+        private MainFormController _controller;
 
         private int _cellPadding = 2;
 
@@ -29,7 +29,6 @@ namespace JunkieGame.controls {
         
         public GameFieldCtrl() {
             InitializeComponent();
-            _controller.GameFieldCreated += onGameFieldCreated;
         }
 
         #region Методы
@@ -53,8 +52,9 @@ namespace JunkieGame.controls {
         }
 
         public async Task initialize(IPlayer player) {
-            _controller = new Controller(player);
+            _controller = new MainFormController(player);
             await _controller.initialize();
+            _controller.GameFieldCreated += onGameFieldCreated;
         }
 
         private Point? getCellUnderMouse(int x, int y) {
