@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JunkieCore", "JunkieCore\JunkieCore.csproj", "{A225FB44-A526-43EB-9F9F-567E5687E49B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JunkieShell", "JunkieShell\JunkieShell.csproj", "{0DDDFA21-F096-4E5C-BC3A-B8D477FEA73E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JunkieGUI", "JunkieGUI\JunkieGUI.csproj", "{03A28886-4ADA-4091-A4F0-549FE64F22C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A225FB44-A526-43EB-9F9F-567E5687E49B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A225FB44-A526-43EB-9F9F-567E5687E49B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A225FB44-A526-43EB-9F9F-567E5687E49B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A225FB44-A526-43EB-9F9F-567E5687E49B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DDDFA21-F096-4E5C-BC3A-B8D477FEA73E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DDDFA21-F096-4E5C-BC3A-B8D477FEA73E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DDDFA21-F096-4E5C-BC3A-B8D477FEA73E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DDDFA21-F096-4E5C-BC3A-B8D477FEA73E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03A28886-4ADA-4091-A4F0-549FE64F22C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03A28886-4ADA-4091-A4F0-549FE64F22C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03A28886-4ADA-4091-A4F0-549FE64F22C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03A28886-4ADA-4091-A4F0-549FE64F22C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

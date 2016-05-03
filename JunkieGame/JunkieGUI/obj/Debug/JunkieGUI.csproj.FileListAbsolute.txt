@@ -1,0 +1,13 @@
+C:\Users\1024\documents\visual studio 2012\Projects\JunkieGame\JunkieGUI\obj\Debug\JunkieGame.controls.GameFieldCtrl.resources
+C:\Users\1024\documents\visual studio 2012\Projects\JunkieGame\JunkieGUI\obj\Debug\JunkieGUI.csproj.GenerateResource.Cache
+C:\Users\1024\documents\visual studio 2012\Projects\JunkieGame\JunkieGUI\bin\Debug\JunkieGUI.dll
+C:\Users\1024\documents\visual studio 2012\Projects\JunkieGame\JunkieGUI\bin\Debug\JunkieGUI.pdb
+C:\Users\1024\documents\visual studio 2012\Projects\JunkieGame\JunkieGUI\bin\Debug\JunkieCore.dll
+C:\Users\1024\documents\visual studio 2012\Projects\JunkieGame\JunkieGUI\bin\Debug\JunkieCore.pdb
+C:\Users\1024\documents\visual studio 2012\Projects\JunkieGame\JunkieGUI\obj\Debug\JunkieGUI.csprojResolveAssemblyReference.cache
+C:\Users\1024\documents\visual studio 2012\Projects\JunkieGame\JunkieGUI\obj\Debug\JunkieGUI.dll
+C:\Users\1024\documents\visual studio 2012\Projects\JunkieGame\JunkieGUI\obj\Debug\JunkieGUI.pdb
+C:\Users\1024\documents\visual studio 2012\Projects\JunkieGame\JunkieGUI\obj\Debug\JunkieGUI.forms.GameForm.resources
+C:\Users\1024\documents\visual studio 2012\Projects\JunkieGame\JunkieGUI\obj\Debug\JunkieGUI.forms.Splash.resources
+C:\Users\1024\documents\visual studio 2012\Projects\JunkieGame\JunkieGUI\obj\Debug\JunkieGUI.controls.MainMenuCtrl.resources
+C:\Users\1024\documents\visual studio 2012\Projects\JunkieGame\JunkieGUI\obj\Debug\JunkieGUI.forms.MenuForm.resources
