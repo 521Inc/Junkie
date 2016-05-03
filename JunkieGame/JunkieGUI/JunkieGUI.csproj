@@ -72,7 +72,7 @@
     <Compile Include="forms\Splash.Designer.cs">
       <DependentUpon>Splash.cs</DependentUpon>
     </Compile>
-    <Compile Include="interfaces\ISplash.cs" />
+    <Compile Include="interfaces\IShellManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

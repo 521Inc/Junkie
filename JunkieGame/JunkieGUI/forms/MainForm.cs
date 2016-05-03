@@ -1,4 +1,5 @@
-﻿using System;
+﻿using JunkieGUI.interfaces;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,10 +9,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace JunkieShell {
+namespace JunkieGUI.forms {
     public partial class MainForm : Form {
         public MainForm() {
             InitializeComponent();
+        }
+
+        public void init(IShellManager shellManager) {
+
         }
     }
 }

@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using JunkieCore.models;
 using JunkieCore.utils;
 using JunkieGame.controllers;
+using JunkieCore.interfaces;
 
 namespace JunkieGame.controls {
     public partial class GameFieldCtrl : UserControl {
@@ -20,7 +21,7 @@ namespace JunkieGame.controls {
 
         private GameField _gameField;
 
-        private Controller _controller = new Controller();
+        private Controller _controller;
 
         private int _cellPadding = 2;
 
@@ -51,7 +52,8 @@ namespace JunkieGame.controls {
             }
         }
 
-        public async Task initialize() {
+        public async Task initialize(IPlayer player) {
+            _controller = new Controller(player);
             await _controller.initialize();
         }
 

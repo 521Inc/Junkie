@@ -1,4 +1,5 @@
-﻿using System;
+﻿using JunkieCore.interfaces;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,8 +15,8 @@ namespace JunkieGUI.forms {
             InitializeComponent();
         }
 
-        public async Task initialize() {
-            await gameFieldCtrl.initialize();
+        public async Task initialize(IPlayer player) {
+            await gameFieldCtrl.initialize(player);
         }
     }
 }

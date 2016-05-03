@@ -1,5 +1,5 @@
 ﻿namespace JunkieGUI.forms {
-    partial class MenuForm {
+    partial class MainForm {
         /// <summary>
         /// Required designer variable.
         /// </summary>
