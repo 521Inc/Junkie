@@ -1,5 +1,0 @@
-C:\Users\1024\documents\visual studio 2012\Projects\JunkieGame\JunkieCore\obj\Debug\JunkieCore.csprojResolveAssemblyReference.cache
-C:\Users\1024\documents\visual studio 2012\Projects\JunkieGame\JunkieCore\bin\Debug\JunkieCore.dll
-C:\Users\1024\documents\visual studio 2012\Projects\JunkieGame\JunkieCore\bin\Debug\JunkieCore.pdb
-C:\Users\1024\documents\visual studio 2012\Projects\JunkieGame\JunkieCore\obj\Debug\JunkieCore.dll
-C:\Users\1024\documents\visual studio 2012\Projects\JunkieGame\JunkieCore\obj\Debug\JunkieCore.pdb
