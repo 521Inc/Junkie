@@ -1,4 +1,5 @@
-﻿using JunkieGUI.interfaces;
+﻿using JunkieCore.interfaces;
+using JunkieGUI.interfaces;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -30,6 +31,11 @@ namespace JunkieGUI.forms {
 
         void onPlay(object sender, EventArgs e) {
             _shellManager.beginSingleGame();
+        }
+
+        public void fillPlayerInfo<TPlayer>(ref TPlayer player)
+            where TPlayer : IPlayer {
+
         }
     }
 }

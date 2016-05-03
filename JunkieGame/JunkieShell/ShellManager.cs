@@ -1,4 +1,6 @@
-﻿using JunkieGUI.forms;
+﻿using JunkieCore.interfaces;
+using JunkieCore.models;
+using JunkieGUI.forms;
 using JunkieGUI.interfaces;
 using System;
 using System.Collections.Generic;
@@ -13,13 +15,19 @@ namespace JunkieShell {
     /// </summary>
     public class ShellManager : IShellManager {
 
-        public Form MainWndForm { get; set; }
+        public MainForm MainWndForm { get; set; }
 
         /// <summary>
         /// Начинает одиночную игру
         /// </summary>
-        public void beginSingleGame() {
-
+        public async void beginSingleGame() {
+            MainWndForm.Hide();
+            var player = new ServerPlayer();
+            MainWndForm.fillPlayerInfo(ref player);
+            var gameForm = new GameForm();
+            await gameForm.initialize(player);
+            gameForm.ShowDialog();
+            MainWndForm.Show();
         }
 
         /// <summary>
